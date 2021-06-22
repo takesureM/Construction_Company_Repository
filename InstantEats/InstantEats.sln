@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantEats", "InstantEats\InstantEats.csproj", "{4BFED33B-D61F-4D8B-8C19-9CC74EAEF4FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BFED33B-D61F-4D8B-8C19-9CC74EAEF4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFED33B-D61F-4D8B-8C19-9CC74EAEF4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFED33B-D61F-4D8B-8C19-9CC74EAEF4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFED33B-D61F-4D8B-8C19-9CC74EAEF4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CBDC018-EAA3-4AA1-9B2A-55E3CACE3C65}
+	EndGlobalSection
+EndGlobal
