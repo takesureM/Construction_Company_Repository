@@ -5,3 +5,6 @@
 *.sln
 /InstantEats/.vs/InstantEats/v16
 /InstantEats/InstantEats/obj
+/InstantEats/InstantEats/bin/Debug/net5.0
+*.user
+/InstantEats/.vs/InstantEats/config
