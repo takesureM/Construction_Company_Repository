@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace InstantEats.Entities
 {
-    public class User
+    public class Product
     {
+        public Guid ProductId { get; set; }
     }
 }
