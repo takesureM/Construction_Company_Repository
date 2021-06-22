@@ -3,3 +3,5 @@
 ################################################################################
 
 *.sln
+/InstantEats/.vs/InstantEats/v16
+/InstantEats/InstantEats/obj
