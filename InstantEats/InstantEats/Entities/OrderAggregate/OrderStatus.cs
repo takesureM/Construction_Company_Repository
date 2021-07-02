@@ -10,8 +10,8 @@ namespace InstantEats.Entities
      public enum OrderStatus
      {
 
-          [EnumMember(Value = "Accepted")]
-          Accepted,
+          [EnumMember(Value = "Order Accepted")]
+          OrderAccepted,
 
           [EnumMember(Value = "Order Proccessing")]
           OrderProccessing,
