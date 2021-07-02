@@ -8,3 +8,5 @@
 /InstantEats/InstantEats/bin/Debug/net5.0
 *.user
 /InstantEats/.vs/InstantEats/config
+/.vs/Food_Delivery_Service_Repository
+/.vs

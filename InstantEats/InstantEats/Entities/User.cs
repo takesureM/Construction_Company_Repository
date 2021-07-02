@@ -5,15 +5,17 @@ using System.Threading.Tasks;
 
 namespace InstantEats.Entities
 {
-    public class Role
+    public class User
     {
+        public Guid UserId {get; set;}
+        public bool IsDeleted { get; set; }
         public int RoleId { get; set; }
-        public string Name { get; set; }
-        public List<User> Users { get; set; }
 
-        public Role()
+        public Role Role { get; set; }
+
+        public User()
         {
-            Users = new List<User>();
+            IsDeleted = false;
         }
     }
 }
