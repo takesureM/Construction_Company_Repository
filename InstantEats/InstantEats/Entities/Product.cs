@@ -16,6 +16,7 @@ namespace InstantEats.Entities
 
         public string PictureUrl { get; set; }
         
-        public ProductType ProductType { get; set; }
+        public Category Category { get; set; }
+        public int CategoryId { get; set; }
     }
 }
