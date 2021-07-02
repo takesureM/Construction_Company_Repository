@@ -7,18 +7,16 @@ namespace InstantEats.Entities
 {
     public class Product
     {
-<<<<<<< HEAD:InstantEats/InstantEats/Entities/User.cs
-        public Guid UserId { get; set; }
-        public bool IsDeleted { get; set; }
-        public RoleId Role { get; set; }
-
-        public User()
-        {
-            IsDeleted = false;
-        }
-        
-=======
         public Guid ProductId { get; set; }
->>>>>>> 824a35046bd601633d9208bc72cfac382dfada64:InstantEats/InstantEats/Entities/Product.cs
+        public string Name { get; set; }
+
+        public string Description { get; set; }
+
+        public decimal Price { get; set; }
+
+        public string PictureUrl { get; set; }
+        
+        public Category Category { get; set; }
+        public int CategoryId { get; set; }
     }
 }
