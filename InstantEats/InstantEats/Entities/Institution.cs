@@ -1,6 +1,6 @@
 namespace InstantEats.Entities
 {
-    public class Institution : User
+    public class Institution : AccountBase
     {
         
     }

@@ -10,3 +10,8 @@
 /InstantEats/.vs/InstantEats/config
 /.vs/Food_Delivery_Service_Repository
 /.vs
+/AuthorizationService/.vs/AuthorizationService
+/AuthorizationService/AuthorizationService.Tests/bin/Debug/net5.0
+/AuthorizationService/AuthorizationService.Tests/obj
+/AuthorizationService/AuthorizationService/bin
+/AuthorizationService/AuthorizationService/obj

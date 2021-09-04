@@ -3,17 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InstantEats.Entities
+namespace AuthorizationService.Entity
 {
-    public class User
+    public abstract class EntityBase
     {
-        public Guid UserId {get; set;}
+        public Guid EntityId { get; set; }
         public bool IsDeleted { get; set; }
-        public int RoleId { get; set; }
 
-        public Role Role { get; set; }
-
-        public User()
+        public EntityBase()
         {
             IsDeleted = false;
         }

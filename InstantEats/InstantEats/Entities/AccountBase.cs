@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace InstantEats.Entities
 {
-    public class Category
+    public class AccountBase
     {
-        public Guid CategoryId { get; set; }
-        public string Name { get; set; }
+        public Guid AccountId {get; set;}
+        public bool IsDeleted { get; set; }
+
     }
 }

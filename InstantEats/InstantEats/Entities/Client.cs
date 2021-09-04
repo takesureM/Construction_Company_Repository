@@ -1,6 +1,6 @@
 namespace InstantEats.Entities
 {
-    public class Client : User
+    public class Client : AccountBase
     {
        
     }
